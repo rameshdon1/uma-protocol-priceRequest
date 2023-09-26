@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ancillaryData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSettledData",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requestData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "settleRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-fba5d2812d940759f4f7585741b529a4/OO_GettingStarted.sol": "OO_GettingStarted"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5",
+				"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53"
+			]
+		},
+		"gist-fba5d2812d940759f4f7585741b529a4/OO_GettingStarted.sol": {
+			"keccak256": "0x33e27f74463f4b4ab1e4b8ecdd5fb5fc30ee8b0e7be182a7ac1eaa0b7ed523a0",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://82bfb6efcc1e06b54beb7085918ad5c67ab146ecd54c5caa38ef1028b6be1b78",
+				"dweb:/ipfs/QmdhdVsdFJ3Nvm9xJK9fLTTWhw6qEfAtJzC4iDGLPo2har"
+			]
+		},
+		"https://github.com/UMAprotocol/protocol/blob/master/packages/core/contracts/data-verification-mechanism/interfaces/FinderInterface.sol": {
+			"keccak256": "0x9166fbfe08e954eb86d33c114fcde7ce4fd0dda5d9d28b31210582bfc769fa86",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://e611e12bcaaebfdf65b67c566ff1d34708e757f01a445bd87c55862e89383b81",
+				"dweb:/ipfs/QmYNSq5oopTShdS6j4VWKqoLxmQSRKmWebCxw6K4LfmKrf"
+			]
+		},
+		"https://github.com/UMAprotocol/protocol/blob/master/packages/core/contracts/optimistic-oracle-v2/interfaces/OptimisticOracleV2Interface.sol": {
+			"keccak256": "0xfd8657b45e330608fd1978812dfc1923ef157624d9f2d4b2c555f57f6234ea6f",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://3e479707692c3f996b6bcbab944d95f3748383bbd4ce7cd614a7468415f539d9",
+				"dweb:/ipfs/QmZj63CBeMEaKaKSmw3D7F8B3kYEDBosaAGjH13hgE16VJ"
+			]
+		}
+	},
+	"version": 1
+}

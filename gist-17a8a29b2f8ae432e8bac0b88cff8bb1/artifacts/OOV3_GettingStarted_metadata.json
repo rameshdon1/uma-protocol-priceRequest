@@ -1,0 +1,223 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assertTruth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "assertedClaim",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "assertionId",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAssertion",
+				"outputs": [
+					{
+						"components": [
+							{
+								"components": [
+									{
+										"internalType": "bool",
+										"name": "arbitrateViaEscalationManager",
+										"type": "bool"
+									},
+									{
+										"internalType": "bool",
+										"name": "discardOracle",
+										"type": "bool"
+									},
+									{
+										"internalType": "bool",
+										"name": "validateDisputers",
+										"type": "bool"
+									},
+									{
+										"internalType": "address",
+										"name": "assertingCaller",
+										"type": "address"
+									},
+									{
+										"internalType": "address",
+										"name": "escalationManager",
+										"type": "address"
+									}
+								],
+								"internalType": "struct OptimisticOracleV3Interface.EscalationManagerSettings",
+								"name": "escalationManagerSettings",
+								"type": "tuple"
+							},
+							{
+								"internalType": "address",
+								"name": "asserter",
+								"type": "address"
+							},
+							{
+								"internalType": "uint64",
+								"name": "assertionTime",
+								"type": "uint64"
+							},
+							{
+								"internalType": "bool",
+								"name": "settled",
+								"type": "bool"
+							},
+							{
+								"internalType": "contract IERC20",
+								"name": "currency",
+								"type": "address"
+							},
+							{
+								"internalType": "uint64",
+								"name": "expirationTime",
+								"type": "uint64"
+							},
+							{
+								"internalType": "bool",
+								"name": "settlementResolution",
+								"type": "bool"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "domainId",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "bytes32",
+								"name": "identifier",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint256",
+								"name": "bond",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "callbackRecipient",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "disputer",
+								"type": "address"
+							}
+						],
+						"internalType": "struct OptimisticOracleV3Interface.Assertion",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAssertionResult",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "settleAndGetAssertionResult",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-17a8a29b2f8ae432e8bac0b88cff8bb1/OOV3_GettingStarted.sol": "OOV3_GettingStarted"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5",
+				"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53"
+			]
+		},
+		"gist-17a8a29b2f8ae432e8bac0b88cff8bb1/OOV3_GettingStarted.sol": {
+			"keccak256": "0xe4da229c2350916bc39a7b7cb51676ed156f86e7df8ed9b2b6b77e91fe37137f",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://6c61ba778f044dc428293d568b905ad9b44b12d31455e263fb184393579e1857",
+				"dweb:/ipfs/QmSpvtwe4NhLZ3h3yLvakrnSkci4QnaLmEkuF7mwkUXN4x"
+			]
+		},
+		"https://github.com/UMAprotocol/protocol/blob/7a93650a7494eaee83756382a18ecf11314499cf/packages/core/contracts/optimistic-oracle-v3/interfaces/OptimisticOracleV3Interface.sol": {
+			"keccak256": "0x06c16f033cb100a20286b0f9c866a33a227a9e534544d5da6e5e20103d182d00",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://a354805eab907d5e9e7910f66ef5c5c5594bb5144a77541d6d30c6cb3cbd6871",
+				"dweb:/ipfs/QmTfUDPJrsuUQ2aPwsbQwTaSvjUzBQFvFxXtmscZFymM4X"
+			]
+		}
+	},
+	"version": 1
+}

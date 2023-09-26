@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"finder/FinderTest.sol": "Ballot"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"finder/FinderTest.sol": {
+			"keccak256": "0x6aee1f4c1467cf2c2caccf25f46c5e9a0caf4fc2eab3d2b32691bc65fb92fb52",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d2d801e512f65e6105c2609af71bb7c9835e6edc6de776ad59fc7ab7522f72f0",
+				"dweb:/ipfs/QmShvxhumtdFSUs5e9xjEBgoWn69bnhJgZrkf9bi9W54nS"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.3/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5",
+				"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53"
+			]
+		}
+	},
+	"version": 1
+}
