@@ -105,6 +105,9 @@ contract FinderTest {
             }
         }
 
+
+//⚡⚡🤔🤔 👇From here the optimisticOracle.requestPrice and all the functions below are not being executed on my sandbox oracle. But working on UMA's oracle contract. 
+
         // Send a price request to the Optimistic oracle
         optimisticOracle.requestPrice(
             "YES_OR_NO_QUERY",
